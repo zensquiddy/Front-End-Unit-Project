@@ -1,1 +1,32 @@
 
+h3 {
+	font-family: "Lucida Handwriting", "Crusive";
+	text-align: center;
+	font-size: 120px;
+	
+}
+
+.chillguyn {
+	height: 10%;
+	width: 100%;
+}
+
+.chillguyr {
+	height: 10%;
+	width: 100%;
+}
+
+.carousel-container {
+  max-width: 800px; /* Adjust this value as needed */
+  margin: 0 auto;
+}
+
+.carousel-inner img {
+  max-height: 400px; /* Adjust this value as needed */
+  object-fit: cover;
+  object-position: center;
+}
+
+.chillguy{
+	width:40px;
+}
