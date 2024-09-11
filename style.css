@@ -6,6 +6,12 @@ h3 {
 	
 }
 
+p {
+	font-family: "Lucida Handwriting", "Crusive";
+	text-align: center;
+	font-size: 40px;
+}
+
 .chillguyn {
 	height: 10%;
 	width: 100%;
