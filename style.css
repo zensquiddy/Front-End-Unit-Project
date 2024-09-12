@@ -12,8 +12,32 @@ p {
 	font-size: 40px;
 }
 
-.shopi{
+#shopi{
 	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#shirt1p{
+	margin-right: auto;
+}
+
+#shirt1i{
+	margin-right: auto;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.maps{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.mapi{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 40px;
+}
+
+.mapt{
+	font-size: 100px;
 }
 
 .chillguyn {
@@ -56,6 +80,12 @@ h4 {
 
 .chillguyblack{
 	display:block;
+	margin-right:auto;
 	margin-left:auto;
+}
+
+.container mt-3 {
+	margin-left: auto;
 	margin-right: auto;
 }
+
