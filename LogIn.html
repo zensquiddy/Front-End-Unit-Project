@@ -14,13 +14,13 @@
 	<link rel="stylesheet" href="style.css">
 	</head>
 	
-  <body>
+	<body>
 	
 	
-	<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-  <div class="container-fluid">
+		<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+	<div class="container-fluid">
 		<img class="chillguy" src="chill.jfif" alt="Logo" class="rounded-pill">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="mynavbar">
@@ -41,14 +41,33 @@
       <form class="d-flex">
         <input class="form-control me-2" type="text" placeholder="Search">
         <button class="btn btn-primary" type="button">Search</button>
-      </form>
+		</form>
+		</div>
+	</div>
+	</nav>
+
+	<div class="container-fluid mt-3">
+
+
+	<h4> Chill Login! </h2>
+	<div class="container mt-3">
+  <form action="/action_page.php">
+    <div class="mb-3 mt-3">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
     </div>
-  </div>
-</nav>
+    <div class="mb-3">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+    </div>
+    <div class="form-check mb-3">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> Remember me
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
 
-<div class="container-fluid mt-3">
-
-
-	<h4> Welcome to the Chill LogIn! </h2>
-  </body>
+	</body>
 </html>
