@@ -1,15 +1,19 @@
+body{
+	background-color: #ffffff;
+	
+}
+
+
 
 h3 {
-	font-family: "Lucida Handwriting", "Crusive";
 	text-align: center;
 	font-size: 120px;
 	
 }
 
 p {
-	font-family: "Lucida Handwriting", "Crusive";
 	text-align: center;
-	font-size: 3vw;
+	font-size: 2vw;
 }
 
 #shopi{
@@ -98,5 +102,7 @@ h4 {
 }
 
 .hide{
-	color: #FFFFFF
+	color: #ffffff
+
 }
+/*test*/
