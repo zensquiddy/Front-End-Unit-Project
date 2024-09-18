@@ -100,3 +100,7 @@ h4 {
 .hide{
 	color: #FFFFFF
 }
+.uparrow{
+	display:none;
+	width:150px;
+}
